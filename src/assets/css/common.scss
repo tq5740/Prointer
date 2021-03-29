@@ -1,0 +1,35 @@
+$color1: #409EFF;
+$color2: #F2F6FC;
+$color3: #67C23A;
+$color3-1:  rgb(225, 243, 216);
+$color4: #F56C6C;
+$color4-1:  rgb(250, 236, 216);
+$color5: #d7dae2;
+$color6: #909399;
+$color7: #303133;
+$color8: #606266;
+
+$fff: #fff;
+
+/deep/ {
+    .el-textarea__inner {
+        font-family: inherit;
+	}
+	.el-table th>.cell {
+		font-weight: bold;
+	}
+	.el-image-viewer__img {
+		max-height: 100vh!important;
+	}
+}
+.w280 {
+    width: 280px;
+}
+
+.isnone {
+	display: none;
+}
+
+.zZindex {
+	z-index: 3000 !important;
+}
